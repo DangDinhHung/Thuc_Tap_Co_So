@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mảng</title>
+    <link href="./css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+      <section class="head">Mô phỏng các thao tác</section>
+      <section class="nav">
+        <input required id="valueUser" type="text" placeholder="Nhập giá trị cần thực hiện..." />
+        <input required id="valueIdx" type="text" placeholder="Nhập vị trí cần thêm..." />
+      </section>
+      <section class="container"></section>
+      <p class="valueSearch" style="display: flex; justify-content: center"></p>
+      <section class="container_btn mgt">
+        <button class="btn" onclick="browserArray()">Duyệt</button>
+        <button class="btn" onclick="insertElement()">Thêm</button>
+        <button class="btn" onclick="deleteElement()">Xóa</button>
+        <button class="btn" onclick="linearSearch()">Tìm kiếm</button>
+        <button class="btn" onclick="SelectionSort()">Sắp xếp mảng</button>
+      </section>
+    </div>
+  </body>
+  <script src="./JS/mophong.js"></script>
+  <script src="./JS/main.js"></script>
+</html>

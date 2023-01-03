@@ -1,0 +1,85 @@
+body {
+  background-color: #faf8f1;
+  font-family: Verdana, sans-serif;
+}
+button {
+  cursor: pointer;
+  min-width: 160px;
+}
+.display-none {
+  display: none !important;
+}
+.mgt {
+  margin-top: 50px;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-size: 50px;
+  font-weight: 600;
+}
+.nav {
+  margin-top: 20px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#valueUser,
+#valueIdx {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+  outline: none;
+  font-size: 20px;
+  border-radius: 8px;
+}
+.container_btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container {
+  height: 150px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  background-color: #000;
+  transition: 0.25s all ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-weight: 600;
+  margin: 0 10px;
+}
+.index {
+  width: 50px;
+  height: 50px;
+  color: #000;
+  transition: 0.25s all ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-weight: 600;
+  margin: 0 10px;
+  transform: translateY(50%);
+}
+.btn {
+  padding: 12px;
+  font-weight: bolder;
+  background-color: #339097;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  border: white;
+}
